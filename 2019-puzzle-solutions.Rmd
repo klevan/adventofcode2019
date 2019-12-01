@@ -61,7 +61,7 @@ Sapply allows this function to be applied to my vector of masses, returning a ve
 
 ```{r Day 1: part one solution, include=T, eval=F}
 ### Part 1: What is the sum of the fuel requirements for all of the modules on your spacecraft?
-fuel_required <- sapply(day_1_puzzle, FuelRequired)
+fuel_required <- sapply(day_1_puzzle$mass, FuelRequired)
 
 sum(fuel_required)
 ```
